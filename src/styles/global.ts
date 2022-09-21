@@ -1,13 +1,22 @@
 import { createGlobalStyle } from 'styled-components'
-
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  :focus {
+    outline: none;
+    box-shadow: 0 0 0 2px ${prop => prop.theme['gray-500']};
+  }
   body {
-    background: #333;
-    color: #FFF;
+    background: ${props => props.theme['gray-100']};
+    color: ${props => props.theme["brown-200"]};
+  }
+  body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    line-height: 130%;
+    font-weight: 400;
+    font-size: 1rem;
   }
 `;
