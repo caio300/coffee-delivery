@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${(props) => props.theme['gray-100']};
     color: ${(props) => props.theme['brown-200']};
+    -webkit-font-smoothing: antialiased;
   }
   body, input, textarea, button {
     font-family: 'Roboto', sans-serif;

@@ -20,6 +20,11 @@ export const LocationSpan = styled.span`
   background: ${(prop) => prop.theme['purple-light']};
   color: ${(prop) => prop.theme['purple-dark']};
   border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
 `
 
 export const ShoppingCarContainer = styled.div`
@@ -39,8 +44,8 @@ export const ShoppingCarContainer = styled.div`
   span {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 1.25rem;
     height: 1.25rem;
     left: 1rem;
@@ -48,8 +53,10 @@ export const ShoppingCarContainer = styled.div`
     background: ${(prop) => prop.theme['yellow-dark']};
     border-radius: 50%;
     color: ${(prop) => prop.theme.white};
-    font-size: 0.86rem;
+    font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
   }
 `
