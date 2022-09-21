@@ -4,9 +4,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   height: 6.5rem;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 10rem;
-  margin-left: 10rem;
+  justify-content: space-around;
 `
 
 export const ActionContainer = styled.div`
