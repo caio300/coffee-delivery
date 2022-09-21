@@ -4,12 +4,15 @@ export const HeaderContainer = styled.header`
   display: flex;
   height: 6.5rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 10rem;
+  margin-left: 10rem;
 `
 
 export const ActionContainer = styled.div`
   display: flex;
   gap: 0.75rem;
+  width: auto;
 `
 
 export const LocationSpan = styled.span`
@@ -28,7 +31,6 @@ export const LocationSpan = styled.span`
 `
 
 export const ShoppingCarContainer = styled.div`
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +38,7 @@ export const ShoppingCarContainer = styled.div`
   padding: 0.5rem;
   background: ${(prop) => prop.theme['yellow-light']};
   color: ${(prop) => prop.theme['yellow-dark']};
+  position: absolute;
 
   svg {
     position: absolute;

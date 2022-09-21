@@ -25,7 +25,7 @@ export function Header() {
         <NavLink to="/checkout" title="Shopping Car">
           <ShoppingCarContainer>
             <ShoppingCart size={22} weight="fill" />
-            <span>0</span>
+            <span>1</span>
           </ShoppingCarContainer>
         </NavLink>
       </ActionContainer>
