@@ -10,6 +10,10 @@ export const IntroContainer = styled.div`
   background-size: 100%;
   height: 34rem;
 
+  @media (max-width: 768px) {
+    height: auto;
+  }
+
   section {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -92,9 +96,8 @@ export const ImageContainer = styled.div`
   width: 100%;
   img {
     height: 100%;
-
-    @media (max-width: 768px) {
-      height: 50%;
-    }
+  }
+  @media (max-width: 768px) {
+    margin-top: 5rem;
   }
 `
