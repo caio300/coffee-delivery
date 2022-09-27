@@ -1,13 +1,30 @@
+import { Coffes } from '../../components/Coffes'
 import { Intro } from '../../components/Intro'
-import { HomeContainer } from './styles'
+import { CardsContainer, CoffeeList, HomeContainer } from './styles'
 
 export function Home() {
   return (
     <HomeContainer>
       <Intro />
-      <div>
-        <h1>Home</h1>
-      </div>
+      <CoffeeList>
+        <h2>Nossos cafés</h2>
+        <CardsContainer>
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+          <Coffes />
+        </CardsContainer>
+      </CoffeeList>
     </HomeContainer>
   )
 }

@@ -3,16 +3,13 @@ import IntroBackground from '../../assets/intro-background.svg'
 
 export const IntroContainer = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background: url('${IntroBackground}');
-  background-repeat: no-repeat;
+  background-position: 0%;
+  background-repeat: repeat;
   background-size: 100%;
-  height: 34rem;
-
-  @media (max-width: 768px) {
-    height: auto;
-  }
+  height: auto;
 
   section {
     display: grid;
@@ -93,7 +90,7 @@ export const InfoSpan = styled.span<StatusProps>`
 `
 
 export const ImageContainer = styled.div`
-  width: 100%;
+  height: 22.5rem;
   img {
     height: 100%;
   }

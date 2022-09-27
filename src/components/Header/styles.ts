@@ -5,7 +5,6 @@ export const HeaderContainer = styled.header`
   height: 6.5rem;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 5.875rem;
 
   @media (max-width: 768px) {
     margin-bottom: 0;
