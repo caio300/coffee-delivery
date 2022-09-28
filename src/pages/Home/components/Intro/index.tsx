@@ -5,7 +5,7 @@ import {
   InfoSpan,
   IntroContainer,
 } from './styles'
-import CoffeeIntro from '../../assets/coffee-intro.svg'
+import CoffeeIntro from '../../../../assets/coffee-intro.svg'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 
 export function Intro() {

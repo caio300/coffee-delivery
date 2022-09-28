@@ -8,7 +8,8 @@ import {
   PriceParagraph,
   TagSpan,
 } from './styles'
-import expressoTradicional from '../../assets/Coffee/expressoTradicional.svg'
+
+import expressoTradicional from '../../../../assets/Coffee/expressoTradicional.svg'
 import { Minus, Plus, ShoppingCart } from 'phosphor-react'
 
 export function Coffes() {

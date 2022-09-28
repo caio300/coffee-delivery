@@ -20,6 +20,7 @@ export const CoffeeList = styled.div`
     line-height: 130%;
     color: ${(prop) => prop.theme['brown-300']};
     margin-bottom: 3.5rem;
+    margin-top: 2rem;
   }
 `
 

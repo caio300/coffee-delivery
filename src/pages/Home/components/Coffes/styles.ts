@@ -10,6 +10,7 @@ export const CoffeContainer = styled.div`
   background: ${(prop) => prop.theme['gray-200']};
   border-radius: 6px 36px;
   gap: 1rem;
+  margin-bottom: 1rem;
 
   img {
     width: 7.5rem;
@@ -83,9 +84,13 @@ export const MoreButton = styled.button`
   border: none;
   padding: 0.5rem;
   font-size: 1rem;
-  color: ${(prop) => prop.theme['purple-dark']};
+  color: ${(prop) => prop.theme.purple};
   border-radius: 5px 0 0 5px;
   cursor: pointer;
+
+  :hover {
+    color: ${(prop) => prop.theme['purple-dark']};
+  }
 `
 
 export const LessButton = styled.button`
@@ -95,9 +100,13 @@ export const LessButton = styled.button`
   border: none;
   padding: 0.5rem;
   font-size: 1rem;
-  color: ${(prop) => prop.theme['purple-dark']};
+  color: ${(prop) => prop.theme.purple};
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+
+  :hover {
+    color: ${(prop) => prop.theme['purple-dark']};
+  }
 `
 
 export const CountSpan = styled.span`
@@ -124,4 +133,8 @@ export const CartButton = styled.button`
   border-radius: 6px;
   margin-left: 0.5rem;
   cursor: pointer;
+
+  :hover {
+    background: ${(prop) => prop.theme.purple};
+  }
 `

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import IntroBackground from '../../assets/intro-background.svg'
+import IntroBackground from '../../../../assets/intro-background.svg'
 
 export const IntroContainer = styled.div`
   display: flex;
@@ -9,7 +9,6 @@ export const IntroContainer = styled.div`
   background-position: 0%;
   background-repeat: repeat;
   background-size: 100%;
-  height: auto;
 
   section {
     display: grid;
